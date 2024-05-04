@@ -159,6 +159,7 @@ header img{
     color: var(--four-color);
     font-size: 12px;
 }
+/*Start Code By HaSh*/
 .cards{
     display: flex;
     justify-content: space-around;
@@ -169,17 +170,23 @@ header img{
 .card2,
 .card3{
     width: calc(80% / 3);
+	display  :flex;
+	flex-direction : column;
+	align-items : center;
 }
 .card1 img,
 .card2 img,
 .card3 img{
-    position: relative;
-    left: 50px;
-    margin-bottom: 20px;
+margin-bottom : 10px;
 }
 .text6 , .text7 , .text8{
-    
+    width : 100%;
+	display : flex;
+	flex-direction: column;
+	align-items : center;
+	text-align : center;
 }
+/*End Code By HaSh*/
 .text6 span,
 .text7 span,
 .text8 span{
